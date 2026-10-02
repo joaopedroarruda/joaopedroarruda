@@ -21,27 +21,25 @@ Meu objetivo é transformar meus estudos em projetos práticos, evoluir constant
 
 #### ⚙️ Incident Management Application — ServiceNow
 
-* **Descrição:** Aplicação customizada desenvolvida no App Engine Studio (AES) para gestão e automatização do ciclo de abertura de incidentes.
-* **Funcionalidades & Regras de Negócio:**
-
+- **Descrição:** Aplicação customizada desenvolvida no App Engine Studio (AES) para gestão e automatização do ciclo de abertura de incidentes.
+- **Funcionalidades & Regras de Negócio:**
   * Formulário dinamizado com autopreenchimento e proteção de dados do solicitante (*Read-Only*).
   * *Before Insert Business Rule* em JavaScript para validação e mapeamento dinâmico de campos customizados para campos nativos da plataforma (`short_description` e `description`).
   * *Script Include* para reutilização de lógica *server-side*.
-* **Tecnologias:** ServiceNow, App Engine Studio, JavaScript, UI Policies, Client Scripts, Business Rules.
+- **Tecnologias:** ServiceNow, App Engine Studio, JavaScript, UI Policies, Client Scripts, Business Rules.
+- **Repository:** [GitHub](https://github.com/joaopedroarruda/servicenow-incident-management)
 
 #### ⚙️ IT Support Request — Auto Assignment
 
-* **Descrição:** Aplicação desenvolvida no ServiceNow para automatizar a distribuição de solicitações de suporte de TI de acordo com a categoria selecionada.
-* **Funcionalidades & Regras de Negócio:**
-
+- **Descrição:** Aplicação desenvolvida no ServiceNow para automatizar a distribuição de solicitações de suporte de TI de acordo com a categoria selecionada.
+- **Funcionalidades & Regras de Negócio:**
   * Automação do direcionamento das solicitações para diferentes *Assignment Groups*.
   * Fluxo desenvolvido com **Flow Designer** para avaliar a categoria selecionada.
   * Regras específicas para solicitações de **Hardware, Software, Network e Access**.
   * Envio de notificação durante o processo de atendimento.
   * Testes realizados no Flow Designer para validar a execução das automações.
-* **Tecnologias:** ServiceNow, Flow Designer, JavaScript, Assignment Groups e Notifications.
-* **Repository:** [GitHub](https://github.com/joaopedroarruda/servicenow-it-support-request-automation)
-
+- **Tecnologias:** ServiceNow, Flow Designer, JavaScript, Assignment Groups e Notifications.
+- **Repository:** [GitHub](https://github.com/joaopedroarruda/servicenow-it-support-request-automation)
 
 ---
 
